@@ -1,0 +1,18 @@
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa;  /* Light gray background color */
+    color: black;                /* Black text color */
+    padding: 20px 0;             /* Padding for top and bottom */
+    text-align: center;          /* Center the text */
+    width: 100%;                 /* Ensure it spans the full width */
+    position: relative;          /* Position relative for custom styling */
+}
+
+footer a {
+    text-decoration: none;       /* Remove underline */
+    color: black;                /* Make links black */
+}
+
+footer a:hover {
+    text-decoration: underline;  /* Underline links on hover */
+}

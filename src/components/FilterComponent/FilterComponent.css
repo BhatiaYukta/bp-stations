@@ -1,0 +1,52 @@
+/* FilterComponent.css */
+
+.filters {
+    width: 300px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.filters h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.filter-dropdown {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+.filter-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+    text-align: center;
+}
+
+.filter-button.active {
+    background-color: green;
+    color: white;
+}
+
+.filter-button:hover {
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,19 @@
+/* App Layout */
+html, body {
+    height: 100%;  /* Make sure the body takes the full height */
+    margin: 0;     /* Remove default margins */
+}
+
+.app-container {
+    min-height: 100%;  /* Ensure content takes up at least the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex-grow: 1;  /* This allows the content area to grow and take available space */
+}
+
+footer {
+    margin-top: auto;  /* Push the footer to the bottom */
+}

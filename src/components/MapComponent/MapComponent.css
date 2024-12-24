@@ -1,0 +1,32 @@
+.map-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.filters {
+  width: 200px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.filters h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.filter-group {
+  margin-bottom: 10px;
+}
+
+.message-box {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,63 @@
+/* Header Styles */
+header {
+    background-color: white; /* Light gray background for the entire header */
+    color: black;              /* Black text color */
+    padding: 20px 0;  
+             /* Padding for top and bottom */
+             
+}
+
+header .container {
+    display: flex;
+   
+    justify-content: flex-start; /* Align items on the left */
+    
+}
+
+header .logo-container {
+    background-color: white; /* White background for the logo side */
+    padding: 20px;
+    width: 20%; /* 20% width for the logo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo {
+    width: 150px;
+    height: auto;
+}
+
+header .content-container {
+    background-image: url('../../assets/images/BPstation.jpg'); /* Set the background image */
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-position: center; /* Center the image */
+    padding: 20px;
+    width: 80%; /* 80% width for the content */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    position: relative; /* Positioning for absolute text overlay */
+    background-color: rgba(0, 0, 0, 0.3); /* Lighten the background image */
+}
+
+header .content {
+    position: absolute; /* Position the text on top of the image */
+    text-align: left; /* Center the text */
+    color: white; /* White text for contrast */
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black background for text readability */
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding does not exceed container width */
+    
+}
+
+header .heading {
+    font-size: 2.5rem; /* Display-4 size */
+    margin: 0;
+}
+
+header .subheading {
+    font-size: 1.25rem; /* Subheading size */
+    margin-top: 20px; /* Space between heading and subheading */
+}
